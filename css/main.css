@@ -1,0 +1,127 @@
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    margin: 0px;
+}
+
+h3 {
+    font-family: 'Oxygen', sans-serif;
+    line-height: 150%;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-family: 'Oxygen', sans-serif;
+    line-height: 100%;
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    margin: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#homepage {
+    background-image: url("https://unilock.com/wp-content/uploads/2015/06/Unilock_8.-WhitmoreYardCare_Driveway_Paver_Unilock.jpg");
+}
+
+#aboutpage {
+    background-image: url("http://www.debeerlandscaping.com/uploads/767x0_2560x0/IMG_0856.PNG");
+}
+
+nav {
+    display: flex;
+    margin-bottom: 200px;
+    background: rgba(56, 88, 3, 0.8);
+    height: 110px;
+}
+
+#logo {
+    height: 220px;
+    background: rgba(218, 196, 157, 1);
+    width: 220px;
+    padding: 4px;
+    margin-left: 110px;
+}
+
+#logoimg {
+    height: 220px;
+    opacity: 1;
+}
+
+.flexparent {
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 20px;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
+
+.flex-item {
+    margin: 15px;
+    height: 40px;
+    text-align: center;
+}
+
+main {
+    background: rgba(218, 196, 157, 0.9);
+    width: 35%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+footer {
+    background: rgba(56, 88, 3, 0.8);
+    height: 110px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+
+.flexfooter {
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    width: 60%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    width: 100%;
+}
+
+@keyframes bounce {
+    50% {
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+}
+
+.icons:hover {
+    animation: bounce 1s;
+}
